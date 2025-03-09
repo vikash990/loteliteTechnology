@@ -10,6 +10,8 @@ import CorporatePrograms from './pages/CorporatePrograms';
 import MaangCertificates from './pages/MaangCertificates';
 import ForeignExchange from './pages/ForeignExchange';
 import ForeignDegreePrograms from './pages/ForeignDegreePrograms';
+import Contact from './pages/ContactUs';
+import Career from './pages/Career';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/maang-certificates" element={<MaangCertificates />} />
           <Route path="/foreign-exchange" element={<ForeignExchange />} />
           <Route path="/foreign-degree-programs" element={<ForeignDegreePrograms />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/career" element={<Career />} />
         </Routes>
        
         <Footer />
