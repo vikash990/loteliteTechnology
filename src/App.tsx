@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div className="min-h-screen bg-gray-50">
         <Header />
-        <SubHeader />
+        {/* <SubHeader /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/corporate-programs" element={<CorporatePrograms />} />

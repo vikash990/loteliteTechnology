@@ -14,8 +14,9 @@ const Header = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <Link to="/">
-            <Logo />
+          <Link to="/" className="flex items-center">
+           
+            <span className="ml-2 text-xl font-semibold text-[#0077B5]">Lotelite Technology</span>
           </Link>
           
           {/* Desktop Navigation */}
@@ -35,12 +36,12 @@ const Header = () => {
           </nav>
           
           <div className="hidden md:flex items-center space-x-4">
-            <button className="px-4 py-2 text-[#0077B5] font-medium border border-[#0077B5] rounded-md hover:bg-[#0077B5] hover:text-white transition-colors">
-              Log In
-            </button>
-            <button className="px-4 py-2 bg-[#0077B5] text-white font-medium rounded-md hover:bg-[#005d8f] transition-colors">
-              Sign Up
-            </button>
+            <Link to="/career" className="px-4 py-2 text-[#0077B5] font-medium border border-[#0077B5] rounded-md hover:bg-[#0077B5] hover:text-white transition-colors">
+              Career
+            </Link>
+            <Link to="/contact-us" className="px-4 py-2 bg-[#0077B5] text-white font-medium rounded-md hover:bg-[#005d8f] transition-colors">
+              Contact Us
+            </Link>
           </div>
           
           {/* Mobile Menu Button */}
@@ -68,12 +69,12 @@ const Header = () => {
                 Foreign Degree Programs
               </Link>
               <div className="flex flex-col space-y-2 pt-3">
-                <button className="w-full px-4 py-2 text-[#0077B5] font-medium border border-[#0077B5] rounded-md hover:bg-[#0077B5] hover:text-white transition-colors">
-                  Log In
-                </button>
-                <button className="w-full px-4 py-2 bg-[#0077B5] text-white font-medium rounded-md hover:bg-[#005d8f] transition-colors">
-                  Sign Up
-                </button>
+                <Link to="/career" className="w-full px-4 py-2 text-[#0077B5] font-medium border border-[#0077B5] rounded-md hover:bg-[#0077B5] hover:text-white transition-colors">
+                  Career
+                </Link>
+                <Link to="/contact-us" className="w-full px-4 py-2 bg-[#0077B5] text-white font-medium rounded-md hover:bg-[#005d8f] transition-colors">
+                  Contact Us
+                </Link>
               </div>
             </div>
           </div>
