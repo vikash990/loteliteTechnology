@@ -11,17 +11,11 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
 // Page Components
+import Home from './pages/Home';
 import CorporatePrograms from './pages/CorporatePrograms';
 import MaangCertificates from './pages/MaangCertificates';
 import ForeignExchange from './pages/ForeignExchange';
 import ForeignDegreePrograms from './pages/ForeignDegreePrograms';
-
-const Home = () => (
-  <div className="container mx-auto px-4 py-8">
-    <h1 className="text-3xl font-bold mb-6">Welcome to Lotlite</h1>
-    <p className="text-gray-600">Your gateway to global education and professional development.</p>
-  </div>
-);
 
 function App() {
   return (
@@ -36,12 +30,7 @@ function App() {
           <Route path="/foreign-exchange" element={<ForeignExchange />} />
           <Route path="/foreign-degree-programs" element={<ForeignDegreePrograms />} />
         </Routes>
-        <MainSection />
-        <Services />
-        <Quotes />
-        <Differentiators />
-        <Testimonials />
-        <ContactForm />
+       
         <Footer />
       </div>
     </Router>
