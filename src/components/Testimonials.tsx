@@ -7,7 +7,7 @@ const Testimonials = () => {
       id: 1,
       name: 'Sarah Johnson',
       role: 'Data Scientist at Google',
-      image: 'https://source.unsplash.com/random/100x100?woman=1',
+      image: 't1.jpg',
       content: 'The Data Science program completely transformed my career. I went from being a marketing analyst to a data scientist at Google with a 70% salary increase. The curriculum was challenging but extremely relevant to what employers are looking for.',
       rating: 5,
       program: 'Data Science Certification'
@@ -16,7 +16,7 @@ const Testimonials = () => {
       id: 2,
       name: 'Michael Chen',
       role: 'Software Engineer at Amazon',
-      image: 'https://source.unsplash.com/random/100x100?man=1',
+      image: 't2.png',
       content: 'As someone with no prior coding experience, I was amazed at how quickly I was able to build real-world projects. The instructors were incredibly supportive and the career services helped me land my dream job at Amazon.',
       rating: 5,
       program: 'Full-Stack Development Bootcamp'
@@ -25,7 +25,7 @@ const Testimonials = () => {
       id: 3,
       name: 'Priya Patel',
       role: 'Product Manager at Microsoft',
-      image: 'https://source.unsplash.com/random/100x100?woman=2',
+      image: 't3.jpg',
       content: 'The Product Management certification gave me the strategic framework and tools I needed to transition from engineering to product. The industry projects and mentorship were invaluable in helping me understand the role.',
       rating: 4,
       program: 'Product Management Certification'
@@ -34,19 +34,10 @@ const Testimonials = () => {
       id: 4,
       name: 'David Wilson',
       role: 'Marketing Director at Netflix',
-      image: 'https://source.unsplash.com/random/100x100?man=2',
+      image: 't4.jpg',
       content: 'The Digital Marketing program provided me with cutting-edge strategies that I was able to implement immediately in my role. The ROI measurement framework alone was worth the investment in the program.',
       rating: 5,
       program: 'Digital Marketing Masters'
-    },
-    {
-      id: 5,
-      name: 'Aisha Mohammed',
-      role: 'Financial Analyst at JP Morgan',
-      image: 'https://source.unsplash.com/random/100x100?woman=3',
-      content: 'The Financial Analysis program gave me a solid foundation in financial modeling and valuation techniques. The case studies and real-world applications made complex concepts easy to understand and apply.',
-      rating: 5,
-      program: 'Financial Analysis Certification'
     }
   ];
 
