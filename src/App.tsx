@@ -11,33 +11,10 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
 // Page Components
-const CorporatePrograms = () => (
-  <div className="container mx-auto px-4 py-8">
-    <h1 className="text-3xl font-bold mb-6">Corporate Programs</h1>
-    <p className="text-gray-600">Welcome to our Corporate Programs section.</p>
-  </div>
-);
-
-const MaangCertificates = () => (
-  <div className="container mx-auto px-4 py-8">
-    <h1 className="text-3xl font-bold mb-6">MAANG Certificates</h1>
-    <p className="text-gray-600">Explore our MAANG certification programs.</p>
-  </div>
-);
-
-const ForeignExchange = () => (
-  <div className="container mx-auto px-4 py-8">
-    <h1 className="text-3xl font-bold mb-6">Foreign Exchange</h1>
-    <p className="text-gray-600">Learn about our foreign exchange opportunities.</p>
-  </div>
-);
-
-const ForeignDegreePrograms = () => (
-  <div className="container mx-auto px-4 py-8">
-    <h1 className="text-3xl font-bold mb-6">Foreign Degree Programs</h1>
-    <p className="text-gray-600">Discover our international degree programs.</p>
-  </div>
-);
+import CorporatePrograms from './pages/CorporatePrograms';
+import MaangCertificates from './pages/MaangCertificates';
+import ForeignExchange from './pages/ForeignExchange';
+import ForeignDegreePrograms from './pages/ForeignDegreePrograms';
 
 const Home = () => (
   <div className="container mx-auto px-4 py-8">
