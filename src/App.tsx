@@ -2,12 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import SubHeader from './components/SubHeader';
-import MainSection from './components/MainSection';
-import Services from './components/Services';
-import Quotes from './components/Quotes';
-import Differentiators from './components/Differentiators';
-import Testimonials from './components/Testimonials';
-import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
 // Page Components
