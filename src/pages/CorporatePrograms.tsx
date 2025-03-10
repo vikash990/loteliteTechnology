@@ -364,6 +364,167 @@ const CorporatePrograms = () => (
         </div>
       </div>
     </div>
+
+    {/* Interview Preparation Section */}
+    <div className="py-20 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold mb-4">Interview Preparation</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Comprehensive preparation modules to help you excel in your interviews
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Soft Skills Card */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Soft Skills Interview"
+              className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
+              <h3 className="text-2xl font-bold mb-2">Soft Skills</h3>
+              <p className="text-gray-200 mb-4">Master essential communication and interpersonal skills</p>
+              <ul className="text-gray-200 space-y-2 mb-4">
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Communication Skills
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Body Language
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Problem Solving
+                </li>
+              </ul>
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          {/* Resume Building Card */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Resume Building"
+              className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
+              <h3 className="text-2xl font-bold mb-2">Resume Building</h3>
+              <p className="text-gray-200 mb-4">Create a compelling resume that stands out</p>
+              <ul className="text-gray-200 space-y-2 mb-4">
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Professional Templates
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  ATS Optimization
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Expert Review
+                </li>
+              </ul>
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          {/* Aptitude Preparation Card */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Aptitude Preparation"
+              className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
+              <h3 className="text-2xl font-bold mb-2">Aptitude Preparation</h3>
+              <p className="text-gray-200 mb-4">Master technical and logical reasoning skills</p>
+              <ul className="text-gray-200 space-y-2 mb-4">
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Quantitative Aptitude
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Logical Reasoning
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Mock Tests
+                </li>
+              </ul>
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          {/* Mock Interviews Card */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Mock Interviews"
+              className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
+              <h3 className="text-2xl font-bold mb-2">Mock Interviews</h3>
+              <p className="text-gray-200 mb-4">Practice with industry experts and get real feedback</p>
+              <ul className="text-gray-200 space-y-2 mb-4">
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Industry Expert Panel
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Real-time Feedback
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Performance Analysis
+                </li>
+              </ul>
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
