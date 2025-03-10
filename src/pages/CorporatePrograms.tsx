@@ -266,6 +266,104 @@ const CorporatePrograms = () => (
         </div>
       </div>
     </div>
+
+    {/* Live Projects Section */}
+    <div className="py-20 bg-gray-50">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold mb-4">Live Projects</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Work on real-world projects that showcase your skills and build your portfolio
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* E-commerce Project */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="E-commerce Project"
+              className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
+              <h3 className="text-2xl font-bold mb-2">E-commerce Platform</h3>
+              <p className="text-gray-200 mb-4">Build a full-featured online shopping platform with payment integration</p>
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                View Project
+              </button>
+            </div>
+          </div>
+
+          {/* Personal Blog Project */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Personal Blog Project"
+              className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
+              <h3 className="text-2xl font-bold mb-2">Personal Blog Website</h3>
+              <p className="text-gray-200 mb-4">Create a modern, responsive blog with content management system</p>
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                View Project
+              </button>
+            </div>
+          </div>
+
+          {/* Property Rental Project */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Property Rental Project"
+              className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
+              <h3 className="text-2xl font-bold mb-2">Property Rental Website</h3>
+              <p className="text-gray-200 mb-4">Develop a property listing and booking platform with search filters</p>
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                View Project
+              </button>
+            </div>
+          </div>
+
+          {/* Food Delivery Project */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Food Delivery Project"
+              className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
+              <h3 className="text-2xl font-bold mb-2">Food Delivery Website</h3>
+              <p className="text-gray-200 mb-4">Build a food ordering and delivery platform with real-time tracking</p>
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                View Project
+              </button>
+            </div>
+          </div>
+
+          {/* Ed-Tech Project */}
+          <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Ed-Tech Project"
+              className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
+              <h3 className="text-2xl font-bold mb-2">Ed-Tech Platform</h3>
+              <p className="text-gray-200 mb-4">Create an online learning platform with video courses and assessments</p>
+              <button className="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 );
 

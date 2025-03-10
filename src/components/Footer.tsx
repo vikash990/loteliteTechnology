@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <Logo />
             <p className="mt-4 text-gray-400 max-w-md">
-              EduLeap is a leading global education technology company offering professional certifications, degree programs, and career-focused training to help you advance your career.
+              Lotlite Technology is a leading global education technology company offering professional certifications, degree programs, and career-focused training to help you advance your career.
             </p>
             <div className="mt-6 space-y-3">
               <div className="flex items-center">
