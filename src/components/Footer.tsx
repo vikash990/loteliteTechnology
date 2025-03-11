@@ -15,15 +15,15 @@ const Footer = () => {
             <div className="mt-6 space-y-3">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-[#0077B5] mr-3" />
-                <span className="text-gray-400">+1 (800) 123-4567</span>
+                <span className="text-gray-400">+91 8805843309</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-[#0077B5] mr-3" />
-                <span className="text-gray-400">info@eduleap.com</span>
+                <span className="text-gray-400">contact@lotlitetechnology.com</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-[#0077B5] mr-3 mt-1" />
-                <span className="text-gray-400">123 Education Street, San Francisco, CA 94105</span>
+                <span className="text-gray-400">Lotlite Technology Pvt Ltd. Office - 122, Gera Imperium, Opp- Wipro, Hinjewadi Phase 2, Rajiv Gandhi Infotech Park, Pune, Maharashtra 411057</span>
               </div>
             </div>
           </div>
@@ -33,9 +33,9 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Data Science</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Software Development</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Business Analytics</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Management</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Digital Marketing</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Foriegn Deegree </a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Foriegn Exchange Programs</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Product Management</a></li>
             </ul>
           </div>
@@ -69,7 +69,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <p className="text-gray-400 text-sm">
-                &copy; {new Date().getFullYear()} EduLeap. All rights reserved.
+                &copy; {new Date().getFullYear()} Lotlite. All rights reserved.
               </p>
             </div>
             
