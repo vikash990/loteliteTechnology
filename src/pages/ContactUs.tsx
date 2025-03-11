@@ -77,7 +77,7 @@ const ContactUs = () => {
                 <div>
                   <p className="font-medium">Phone</p>
                   <a href="tel:+1234567890" className="text-[#0077B5] hover:underline">
-                    +1 (234) 567-890
+                    +91 9876543210
                   </a>
                 </div>
               </div>
@@ -86,9 +86,7 @@ const ContactUs = () => {
                 <div>
                   <p className="font-medium">Address</p>
                   <p className="text-gray-600">
-                    123 Technology Street<br />
-                    Silicon Valley, CA 94025<br />
-                    United States
+                  Lotlite Technology Pvt Ltd. Office - 122, Gera Imperium, Opp- Wipro, Hinjewadi Phase 2, Rajiv Gandhi Infotech Park, Pune, Maharashtra 411057
                   </p>
                 </div>
               </div>
