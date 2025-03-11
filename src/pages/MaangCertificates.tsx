@@ -222,6 +222,116 @@ const MaangCertificates = () => (
               </div>
             </div>
 
+            {/* Student Reviews Section */}
+            <div className="py-20 bg-white">
+              <div className="container mx-auto px-4">
+                <div className="text-center mb-16">
+                  <h2 className="text-4xl font-bold mb-4 text-gray-900">
+                    Student Success Stories
+                  </h2>
+                  <p className="text-gray-600 max-w-3xl mx-auto text-lg">
+                    Hear from our successful graduates who have transformed their careers with MAANG certifications
+                  </p>
+                </div>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {/* Review 1 */}
+                  <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+                    <div className="flex items-center mb-6">
+                      <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-2xl font-bold text-blue-600 mr-4">
+                        PS
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-gray-900">Priya Sharma</h3>
+                        <p className="text-gray-600">Software Development</p>
+                      </div>
+                    </div>
+                    <div className="flex mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                      ))}
+                    </div>
+                    <p className="text-gray-600 italic">
+                      "The MAANG certification program completely transformed my career. The practical projects and expert mentorship helped me land a senior developer position at a leading tech company. The mock interviews were particularly helpful in preparing me for the actual interview process."
+                    </p>
+                    <div className="mt-4 text-sm text-gray-500">
+                      Placed at: Google India
+                    </div>
+                  </div>
+
+                  {/* Review 2 */}
+                  <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+                    <div className="flex items-center mb-6">
+                      <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-2xl font-bold text-blue-600 mr-4">
+                        RV
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-gray-900">Rahul Verma</h3>
+                        <p className="text-gray-600">Cloud Computing</p>
+                      </div>
+                    </div>
+                    <div className="flex mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                      ))}
+                    </div>
+                    <p className="text-gray-600 italic">
+                      "The AWS certification track was exceptional. The hands-on labs and real-world projects gave me the confidence to handle complex cloud infrastructure. I'm now working as a Cloud Architect at Amazon Web Services."
+                    </p>
+                    <div className="mt-4 text-sm text-gray-500">
+                      Placed at: Amazon Web Services
+                    </div>
+                  </div>
+
+                  {/* Review 3 */}
+                  <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+                    <div className="flex items-center mb-6">
+                      <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-2xl font-bold text-blue-600 mr-4">
+                        AP
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-gray-900">Anjali Patel</h3>
+                        <p className="text-gray-600">Mobile Development</p>
+                      </div>
+                    </div>
+                    <div className="flex mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                      ))}
+                    </div>
+                    <p className="text-gray-600 italic">
+                      "The Meta certification program helped me master React Native and mobile development. The project-based learning approach and industry expert guidance were invaluable. I'm now working on Meta's Instagram team."
+                    </p>
+                    <div className="mt-4 text-sm text-gray-500">
+                      Placed at: Meta (Instagram)
+                    </div>
+                  </div>
+                </div>
+
+                {/* Additional Review Stats */}
+                <div className="mt-16 grid md:grid-cols-3 gap-8 text-center">
+                  <div>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">95%</div>
+                    <p className="text-gray-600">Placement Rate</p>
+                  </div>
+                  <div>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">₹15L+</div>
+                    <p className="text-gray-600">Average Package</p>
+                  </div>
+                  <div>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">500+</div>
+                    <p className="text-gray-600">Successful Placements</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Call to Action */}
             <div className="mt-16 text-center">
               <h3 className="text-2xl font-bold mb-6 text-gray-900">
