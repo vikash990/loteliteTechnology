@@ -120,6 +120,50 @@ const ForeignExchange = () => (
             </button>
           </div>
 
+          {/* University Tie-ups Section */}
+          <div className="py-20 bg-white">
+            <div className="container mx-auto px-4">
+              <div className="flex flex-col md:flex-row items-center gap-12">
+                {/* Image Container */}
+                <div className="w-full md:w-1/2">
+                  <div className="relative rounded-2xl overflow-hidden shadow-xl">
+                    <img 
+                      src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1186&q=80"
+                      alt="INTI International University Campus"
+                      className="w-full h-[400px] object-cover transform hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/30 to-transparent"></div>
+                  </div>
+                </div>
+                {/* Text Content */}
+                <div className="w-full md:w-1/2">
+                  <div className="text-left">
+                    <h2 className="text-4xl font-bold mb-4">About INTI International University</h2>
+                    <p className="text-xl text-indigo-600 font-semibold mb-6">
+                      Shaping Global Talent, Affordable Excellence, Dynamic Learning Environment
+                    </p>
+                    
+                    {/* Award 1 */}
+                    <div className="mb-8">
+                      <h3 className="text-2xl font-bold text-gray-900 mb-3">Award-Winning Institution</h3>
+                      <p className="text-gray-600">
+                        With a legacy of academic excellence and innovation, INTI International University stands as a leader in higher education. Our programs are designed to meet global standards, empowering students to excel in their chosen fields.
+                      </p>
+                    </div>
+
+                    {/* Award 2 */}
+                    <div>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-3">Global Opportunities & Cultural Exchange</h3>
+                      <p className="text-gray-600">
+                        At INTI, we connect students with international experiences, diverse cultures, and global career opportunities. Our partnerships with top universities and industries ensure that students are well-prepared for the global stage.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Student Reviews Section */}
           <div className="mt-20">
             <h2 className="text-4xl font-bold mb-8 text-gray-900 text-center">
@@ -131,75 +175,75 @@ const ForeignExchange = () => (
 
             <div className="grid md:grid-cols-3 gap-8">
               {/* Review 1 */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
+              <div className="bg-gradient-to-br from-indigo-500 to-blue-600 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
                 <div className="flex items-center mb-6">
-                  <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center text-2xl font-bold text-indigo-600 mr-4">
+                  <div className="w-16 h-16 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-2xl font-bold text-white mr-4">
                     SK
                   </div>
                   <div>
-                    <h3 className="font-bold text-xl text-gray-900">Sanjay Kumar</h3>
-                    <p className="text-gray-600">INTI International University, Malaysia</p>
+                    <h3 className="font-bold text-xl text-white">Sanjay Kumar</h3>
+                    <p className="text-indigo-100">INTI International University, Malaysia</p>
                   </div>
                 </div>
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <svg key={i} className="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-600 mb-4">
+                <p className="text-indigo-100 mb-4">
                   "My experience at INTI was incredible! The diverse Malaysian culture, from its amazing food to festive celebrations like Hari Raya and Chinese New Year, made every day exciting. The university's modern facilities and multicultural environment helped me develop a global perspective. The Malaysian hospitality is truly unmatched!"
                 </p>
-                <p className="text-indigo-600 font-semibold">Currently working in Kuala Lumpur</p>
+                <p className="text-white font-semibold">Currently working in Kuala Lumpur</p>
               </div>
 
               {/* Review 2 */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
+              <div className="bg-gradient-to-br from-purple-500 to-indigo-600 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
                 <div className="flex items-center mb-6">
-                  <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center text-2xl font-bold text-indigo-600 mr-4">
+                  <div className="w-16 h-16 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-2xl font-bold text-white mr-4">
                     AP
                   </div>
                   <div>
-                    <h3 className="font-bold text-xl text-gray-900">Anjali Patel</h3>
-                    <p className="text-gray-600">INTI International University, Malaysia</p>
+                    <h3 className="font-bold text-xl text-white">Anjali Patel</h3>
+                    <p className="text-indigo-100">INTI International University, Malaysia</p>
                   </div>
                 </div>
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <svg key={i} className="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-600 mb-4">
+                <p className="text-indigo-100 mb-4">
                   "INTI's campus in Malaysia offered me the perfect blend of academic excellence and cultural diversity. I loved exploring Malacca's historic sites, learning Bahasa Malaysia, and participating in traditional Malaysian art workshops. The industry-focused curriculum and exposure to Southeast Asian business practices gave me a unique advantage."
                 </p>
-                <p className="text-indigo-600 font-semibold">Leading projects in Penang Tech Hub</p>
+                <p className="text-white font-semibold">Leading projects in Penang Tech Hub</p>
               </div>
 
               {/* Review 3 */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
+              <div className="bg-gradient-to-br from-blue-500 to-indigo-600 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
                 <div className="flex items-center mb-6">
-                  <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center text-2xl font-bold text-indigo-600 mr-4">
+                  <div className="w-16 h-16 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-2xl font-bold text-white mr-4">
                     VR
                   </div>
                   <div>
-                    <h3 className="font-bold text-xl text-gray-900">Vikram Reddy</h3>
-                    <p className="text-gray-600">INTI International University, Malaysia</p>
+                    <h3 className="font-bold text-xl text-white">Vikram Reddy</h3>
+                    <p className="text-indigo-100">INTI International University, Malaysia</p>
                   </div>
                 </div>
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <svg key={i} className="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-600 mb-4">
+                <p className="text-indigo-100 mb-4">
                   "Studying at INTI transformed my worldview. The Malaysian 'Truly Asia' experience is real - from celebrating Deepavali to experiencing Ramadan, every moment was a cultural lesson. The university's strong ties with local industries and practical training approach helped me secure a great position in Malaysia's growing tech sector."
                 </p>
-                <p className="text-indigo-600 font-semibold">Working at Malaysian Digital Economy Corporation</p>
+                <p className="text-white font-semibold">Working at Malaysian Digital Economy Corporation</p>
               </div>
             </div>
           </div>
