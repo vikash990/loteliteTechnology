@@ -52,7 +52,7 @@ const ContactForm = () => {
                 <Phone className="h-6 w-6 mr-4 flex-shrink-0" />
                 <div>
                   <p className="font-medium">Call Us</p>
-                  <p>+1 (800) 123-4567</p>
+                  <p>+91 8805843309</p>
                 </div>
               </div>
               
@@ -60,7 +60,7 @@ const ContactForm = () => {
                 <Mail className="h-6 w-6 mr-4 flex-shrink-0" />
                 <div>
                   <p className="font-medium">Email Us</p>
-                  <p>admissions@eduleap.com</p>
+                  <p>contact@lotlitetechnology.com</p>
                 </div>
               </div>
               
@@ -68,7 +68,7 @@ const ContactForm = () => {
                 <MapPin className="h-6 w-6 mr-4 flex-shrink-0" />
                 <div>
                   <p className="font-medium">Visit Us</p>
-                  <p>123 Education Street, San Francisco, CA 94105</p>
+                  <p>Lotlite Technology Pvt Ltd. Office - 122, Gera Imperium, Opp- Wipro, Hinjewadi Phase 2, Rajiv Gandhi Infotech Park, Pune, Maharashtra 411057</p>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ const ContactForm = () => {
                     value={formData.name}
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#0077B5] focus:border-[#0077B5] outline-none"
-                    placeholder="John Doe"
+                    placeholder="mohit kumar"
                     required
                   />
                 </div>
@@ -121,7 +121,7 @@ const ContactForm = () => {
                     value={formData.email}
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#0077B5] focus:border-[#0077B5] outline-none"
-                    placeholder="john@example.com"
+                    placeholder="mohitkumar@gmail.com"
                     required
                   />
                 </div>
@@ -137,7 +137,7 @@ const ContactForm = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#0077B5] focus:border-[#0077B5] outline-none"
-                    placeholder="+1 (123) 456-7890"
+                    placeholder="+91 8805843309"
                   />
                 </div>
                 
