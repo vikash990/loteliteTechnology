@@ -28,7 +28,7 @@ const MainSection = () => {
       key: 2,
       content: (
         <img
-          src="/src/images/1741581292597.jpg"
+          src="/src/images/1741581292500.jpg"
           alt="Coding"
           className="rounded-xl shadow-2xl w-full h-[500px] object-cover"
         />
@@ -38,7 +38,7 @@ const MainSection = () => {
       key: 3,
       content: (
         <img
-          src="/src/images/1741581292597.jpg"
+          src="/src/images/1741581292216.jpg"
           alt="Business"
           className="rounded-xl shadow-2xl w-full h-[500px] object-cover"
         />
