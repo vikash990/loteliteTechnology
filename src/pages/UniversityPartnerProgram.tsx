@@ -92,7 +92,7 @@ const UniversityPartnerProgram = () => {
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                     </svg>
                   </div>
-                  <span className="text-white font-medium">National University of Singapore</span>
+                  <span className="text-white font-medium">Skyline University Sharjah, United Arab Emirates</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="bg-white/20 rounded-full p-2">
@@ -298,8 +298,8 @@ const UniversityPartnerProgram = () => {
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="text-xl font-bold mb-2 text-gray-900">National University of Singapore</h3>
-                  <p className="text-gray-600 mb-4">Singapore</p>
+                  <h3 className="text-xl font-bold mb-2 text-gray-900">Skyline University Sharjah, United Arab Emirates</h3>
+                  <p className="text-gray-600 mb-4">United Arab Emirates</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Computer Science</span>
                     <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Medicine</span>
