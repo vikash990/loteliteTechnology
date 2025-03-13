@@ -21,8 +21,11 @@ const Header = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/corporate-programs" className="text-gray-700 hover:text-[#0077B5] font-medium">
-              Corporate Programs
+            <Link to="/corporate-partner-program" className="text-gray-700 hover:text-[#0077B5] font-medium">
+              Corporate Partner Programs
+            </Link>
+            <Link to="/it-services" className="text-gray-700 hover:text-[#0077B5] font-medium">
+              IT Services
             </Link>
             <Link to="/maang-certificates" className="text-gray-700 hover:text-[#0077B5] font-medium">
               MAANG Certificates
@@ -32,6 +35,9 @@ const Header = () => {
             </Link>
             <Link to="/foreign-degree-programs" className="text-gray-700 hover:text-[#0077B5] font-medium">
               Foreign Degree Programs
+            </Link>
+            <Link to="/university-partner-program" className="text-gray-700 hover:text-[#0077B5] font-medium">
+              University Partner Program
             </Link>
           </nav>
           
@@ -56,8 +62,11 @@ const Header = () => {
         <div className="md:hidden bg-white border-t">
           <div className="container mx-auto px-4 py-3">
             <div className="space-y-3">
-              <Link to="/corporate-programs" className="block py-2 text-gray-700 font-medium">
-                Corporate Programs
+              <Link to="/corporate-partner-program" className="block py-2 text-gray-700 font-medium">
+                Corporate Partner Programs
+              </Link>
+              <Link to="/it-services" className="block py-2 text-gray-700 font-medium">
+                IT Services
               </Link>
               <Link to="/maang-certificates" className="block py-2 text-gray-700 font-medium">
                 MAANG Certificates
@@ -67,6 +76,9 @@ const Header = () => {
               </Link>
               <Link to="/foreign-degree-programs" className="block py-2 text-gray-700 font-medium">
                 Foreign Degree Programs
+              </Link>
+              <Link to="/university-partner-program" className="block py-2 text-gray-700 font-medium">
+                University Partner Program
               </Link>
               <div className="flex flex-col space-y-2 pt-3">
                 <Link to="/career" className="w-full px-4 py-2 text-[#0077B5] font-medium border border-[#0077B5] rounded-md hover:bg-[#0077B5] hover:text-white transition-colors">

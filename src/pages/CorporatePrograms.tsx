@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CorporatePrograms = () => (
+const ItServices = () => (
   <div className="min-h-screen">
     {/* Banner Section */}
     <div className="relative h-[500px] bg-gradient-to-r from-blue-600 to-blue-800 overflow-hidden">
@@ -11,7 +11,7 @@ const CorporatePrograms = () => (
       <div className="container mx-auto px-4 h-full flex items-center">
         <div className="max-w-2xl text-white">
           <h1 className="text-5xl font-bold mb-6 transform hover:scale-105 transition-transform">
-            Transform Your Business with Our Corporate Programs
+            Transform Your Business with Our Corporate Partner Programs
           </h1>
           <p className="text-xl mb-8">
             Empower your workforce with cutting-edge training solutions tailored for modern business needs
@@ -674,4 +674,4 @@ const CorporatePrograms = () => (
   </div>
 );
 
-export default CorporatePrograms; 
+export default ItServices; 

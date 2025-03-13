@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ForeignExchange = () => (
   <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
@@ -115,9 +116,9 @@ const ForeignExchange = () => (
             <p className="text-gray-600 mb-8">
               Join our Foreign Exchange Program and embark on a life-changing educational adventure
             </p>
-            <button className="bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transform hover:-translate-y-1 transition-all">
+            <Link to="/contact-us" className="inline-block bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transform hover:-translate-y-1 transition-all">
               Apply Now
-            </button>
+            </Link>
           </div>
 
           {/* University Tie-ups Section */}
