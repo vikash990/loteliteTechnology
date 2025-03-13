@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MaangCertificates = () => (
   <div className="min-h-screen">
@@ -592,9 +593,9 @@ const MaangCertificates = () => (
               <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
                 Join thousands of professionals who have transformed their careers with MAANG certifications. Start your journey today and position yourself for success in the tech industry.
               </p>
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transform hover:-translate-y-1 transition-all">
+              <Link to="/contact-us" className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transform hover:-translate-y-1 transition-all">
                 Get Certified Now
-              </button>
+              </Link>
             </div>
           </div>
         </div>
