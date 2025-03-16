@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 import { sendContactForm, ContactFormData } from '../services/api';
+import WhatsAppForm from '../components/WhatsAppForm';
 
 const ContactUs = () => {
   const [showModal, setShowModal] = useState(false);
@@ -14,6 +15,16 @@ const ContactUs = () => {
     message: ''
   });
   const [isLoading, setIsLoading] = useState(false);
+
+  // WhatsApp configuration
+  const whatsappNumber = '919876543210'; // International format without the + sign
+  const whatsappDefaultMessage = 'Hello, I would like to know more about your services.';
+
+  // Generate WhatsApp URL
+  const getWhatsAppUrl = () => {
+    const encodedMessage = encodeURIComponent(whatsappDefaultMessage);
+    return `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
@@ -72,7 +83,9 @@ const ContactUs = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-gray-800 mb-6">Contact Us</h1>
-      <div className="grid md:grid-cols-2 gap-8">
+      
+      {/* Contact Form and Info */}
+      <div className="grid md:grid-cols-2 gap-8 mb-10">
         <div className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Get in Touch</h2>
           <form className="space-y-4" onSubmit={handleSubmit}>
@@ -176,8 +189,22 @@ const ContactUs = () => {
                 <Phone className="w-6 h-6 text-[#0077B5]" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <a href="tel:+1234567890" className="text-[#0077B5] hover:underline">
+                  <a href="tel:+919876543210" className="text-[#0077B5] hover:underline">
                     +91 9876543210
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-start space-x-3">
+                <MessageCircle className="w-6 h-6 text-[#25D366]" />
+                <div>
+                  <p className="font-medium">WhatsApp</p>
+                  <a 
+                    href={getWhatsAppUrl()} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-[#25D366] hover:underline"
+                  >
+                    Chat with us on WhatsApp
                   </a>
                 </div>
               </div>
@@ -190,6 +217,60 @@ const ContactUs = () => {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+          
+          {/* WhatsApp Button - Visible on mobile devices */}
+          <div className="md:hidden">
+            <a 
+              href={getWhatsAppUrl()} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center justify-center w-full bg-[#25D366] text-white px-6 py-3 rounded-md hover:bg-[#128C7E] transition-colors"
+            >
+              <MessageCircle className="w-5 h-5 mr-2" />
+              Chat with us on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      {/* WhatsApp Form Section */}
+      <div className="mt-10 mb-10">
+        <h2 className="text-2xl font-bold text-gray-800 mb-6">Quick WhatsApp Chat</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <WhatsAppForm 
+            phoneNumber={whatsappNumber} 
+            defaultMessage={whatsappDefaultMessage} 
+          />
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Why Choose WhatsApp?</h3>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center text-white mr-2">✓</span>
+                <span>Instant responses during business hours</span>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center text-white mr-2">✓</span>
+                <span>Share images and files easily</span>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center text-white mr-2">✓</span>
+                <span>Discuss your requirements in detail</span>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center text-white mr-2">✓</span>
+                <span>Get personalized assistance</span>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-5 h-5 rounded-full bg-[#25D366] flex items-center justify-center text-white mr-2">✓</span>
+                <span>Secure and private communication</span>
+              </li>
+            </ul>
+            <div className="mt-6">
+              <p className="text-gray-600">
+                We're available on WhatsApp from 9:00 AM to 6:00 PM IST, Monday to Friday.
+              </p>
             </div>
           </div>
         </div>
