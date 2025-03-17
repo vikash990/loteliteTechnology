@@ -22,22 +22,22 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link to="/corporate-partner-program" className="text-gray-700 hover:text-[#0077B5] font-medium">
-              Corporate Partner Programs
+              Corporate Programs
             </Link>
             <Link to="/it-services" className="text-gray-700 hover:text-[#0077B5] font-medium">
               IT Services
             </Link>
             <Link to="/maang-certificates" className="text-gray-700 hover:text-[#0077B5] font-medium">
-              MAANG Certificates
+              Certificates
             </Link>
             <Link to="/foreign-exchange" className="text-gray-700 hover:text-[#0077B5] font-medium">
               Foreign Exchange
             </Link>
             <Link to="/foreign-degree-programs" className="text-gray-700 hover:text-[#0077B5] font-medium">
-              Foreign Degree Programs
+              Foreign Degree 
             </Link>
             <Link to="/university-partner-program" className="text-gray-700 hover:text-[#0077B5] font-medium">
-              University Partner Program
+              University Partner 
             </Link>
           </nav>
           
