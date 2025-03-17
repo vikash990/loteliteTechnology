@@ -83,7 +83,7 @@ const Differentiators = () => {
             
             <div className="md:w-1/2">
               <img 
-                src="https://source.unsplash.com/random/600x400?classroom" 
+                src="./src/images/1741581292597.jpg" 
                 alt="Students in classroom" 
                 className="rounded-lg shadow-md"
               />
