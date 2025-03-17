@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Carousel from 'react-spring-3d-carousel';
+import CollegeSection from '../components/CollegeSection';
 
 const UniversityPartnerProgram = () => {
   const [goToSlide, setGoToSlide] = useState(0);
@@ -162,7 +163,7 @@ const UniversityPartnerProgram = () => {
           </div>
         </div>
       </div>
-
+              <CollegeSection/>
       {/* Program Description Section */}
       <div className="py-20">
         <div className="container mx-auto px-4">
